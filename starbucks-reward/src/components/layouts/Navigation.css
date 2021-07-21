@@ -1,5 +1,5 @@
 nav {
-  margin: 1rem 3rem;
+  /* margin: 1rem 3rem; */
 }
 
 #container {
@@ -10,6 +10,10 @@ nav {
 #container * {
   margin: 10px;
   list-style: none;
+}
+
+#container img {
+  width: 3.5rem;
 }
 
 #left {
