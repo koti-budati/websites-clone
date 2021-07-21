@@ -1,11 +1,11 @@
 import React from "react";
 import Navigation from "../layouts/Navigation";
-import Title from "../layouts/Title";
 
 const Rewards = () => {
+  document.title =
+    "Starbucks Rewards- Order Ahead, Endless Extras, Free Coffee: Starbucks Coffee Company";
   return (
     <div>
-      <Title title={"Rewards"} />
       <Navigation />
     </div>
   );
