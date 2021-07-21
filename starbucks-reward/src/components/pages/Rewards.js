@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../layouts/Navigation";
+import Navigation from "../layouts/navigation/Navigation";
 
 const Rewards = () => {
   document.title =
