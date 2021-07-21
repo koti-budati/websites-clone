@@ -1,0 +1,17 @@
+nav {
+  margin: 1rem 3rem;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#container * {
+  margin: 10px;
+  list-style: none;
+}
+
+#left {
+  margin-left: auto;
+}
