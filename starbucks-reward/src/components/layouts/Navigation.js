@@ -10,10 +10,7 @@ const Navigation = () => {
         <li>menu</li>
         <li>Rewards</li>
         <li>Gift Cards</li>
-        <li id={"left"}>
-          <i className={"fas fa-map-marker-alt"}></i>Find a store
-        </li>
-
+        <li id={"left"}>Find a store</li>
         <Button text="Sign in" />
         <Button text="Join now" />
       </div>
