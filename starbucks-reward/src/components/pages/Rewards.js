@@ -1,9 +1,10 @@
 import React from "react";
+import Navigation from "../layouts/Navigation";
 
 const Rewards = () => {
   return (
     <div>
-      <h1>Hello From rewards page</h1>
+      <Navigation />
     </div>
   );
 };
