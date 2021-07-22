@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../layouts/Navigation";
+import Hero from "../layouts/Hero";
 
 const Rewards = () => {
   document.title =
@@ -7,6 +8,7 @@ const Rewards = () => {
   return (
     <div>
       <Navigation />
+      <Hero />
     </div>
   );
 };
