@@ -1,11 +1,10 @@
 header {
   display: flex;
-  margin: 1rem 3rem;
   align-items: center;
 }
 
 img {
-  height: 3.5rem;
+  height: 3.2rem;
 }
 
 #left {
@@ -23,5 +22,5 @@ ul li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.87);
 }
