@@ -2,8 +2,12 @@
   background-color: #d4e9e2;
   background-image: url("../images/xl-hero-desktop_2021.webp");
   background-size: 155%;
-  padding: 30rem;
+  padding: 24rem 0;
   background-repeat: no-repeat;
   overflow: hidden;
   background-position: -27rem 9rem;
+}
+
+#hero h1 {
+  margin: 0 4rem;
 }
