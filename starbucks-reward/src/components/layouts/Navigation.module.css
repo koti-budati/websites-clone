@@ -8,7 +8,6 @@ header {
   display: flex;
   align-items: center;
   margin: 1rem 4.5rem;
-  
 }
 
 img {
@@ -24,7 +23,7 @@ ul li {
   margin: 10px;
 }
 
-.right-nav {
+.right_nav {
   margin: 10px;
 }
 
@@ -33,23 +32,36 @@ a {
   color: rgba(0, 0, 0, 0.87);
 }
 
-.second-nav {
+.second_nav {
   background-color: #1e3932;
   height: 3rem;
   color: white;
 }
 
-.second-nav h4 {
+.second_nav h4 {
   margin-left: 3.5rem;
   padding: 1rem;
 }
 
-button {
+.right_nav button {
   padding: 7px 15px;
-  background: none;
+  /* background: none; */
   border: 1px solid black;
   border-radius: 30px;
   height: 2rem;
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+.sign_in:hover {
+  background-color: darkgray;
+}
+
+.join_now {
+  background-color: black;
+  color: white;
+}
+
+.join_now:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }

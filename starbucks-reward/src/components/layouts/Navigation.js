@@ -1,10 +1,10 @@
-import "./Navigation.css";
+import classes from "./Navigation.module.css";
 import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div id={"container"}>
+    <div id={classes.container}>
       <header>
         <img src={logo} alt="logo" />
         <nav>
@@ -20,17 +20,17 @@ const Navigation = () => {
             </li>
           </ul>
         </nav>
-        <Link to={"#"} id={"left"} className={"right-nav"}>
+        <Link to={"#"} id={classes.left} className={classes.right_nav}>
           Find a Store
         </Link>
-        <Link to={"#"} className={"right-nav"}>
-          <button>Sign in</button>
+        <Link to={"#"} className={classes.right_nav}>
+          <button className={"sign-in"}>Sign in</button>
         </Link>
-        <Link to={"#"} className={"right-nav"}>
-          <button>Join now</button>
+        <Link to={"#"} className={classes.right_nav}>
+          <button className={classes.join_now}>Join now</button>
         </Link>
       </header>
-      <div className={"second-nav"}>
+      <div className={classes.second_nav}>
         <h4>STARBUCKS REWARDS</h4>
       </div>
     </div>
