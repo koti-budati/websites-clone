@@ -1,21 +1,27 @@
-/* nav {
-  margin: 1rem 3rem;
-} */
-
-#container {
-  height: 10rem;
+header {
   display: flex;
+  margin: 1rem 3rem;
+  align-items: center;
 }
 
-#container * {
-  margin: 10px;
-  list-style: none;
-}
-
-#container img {
+img {
   height: 3.5rem;
 }
 
 #left {
   margin-left: auto;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.right-nav {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
