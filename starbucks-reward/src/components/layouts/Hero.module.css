@@ -1,13 +1,34 @@
 #hero {
   background-color: #d4e9e2;
   background-image: url("../images/xl-hero-desktop_2021.webp");
-  background-size: 155%;
-  padding: 24rem 0;
+  background-size: 185% 100%;
+  padding: 25rem 4rem;
   background-repeat: no-repeat;
-  overflow: hidden;
-  background-position: -27rem 9rem;
+  background-position: -50rem 9rem;
 }
 
 #hero h1 {
-  margin: 0 4rem;
+  /* margin-top: 2.5em; */
+  font-size: 2rem;
+}
+
+#hero button {
+  margin-top: 1em;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #008248;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#hero button:hover {
+  background-color: rgb(0, 130, 72, 0.8);
+}
+
+#hero a {
+  text-decoration: underline;
+  cursor: pointer;
 }
