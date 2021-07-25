@@ -1,0 +1,20 @@
+.paymentcard {
+  display: flex;
+  margin-left: 2rem;
+  padding-top: 2rem;
+  text-align: start;
+  
+}
+
+.paymentcard div {
+  width: 25rem;
+}
+
+.card {
+  display: flex;
+}
+
+.card img {
+  height: 10em;
+  margin: 1rem;
+}

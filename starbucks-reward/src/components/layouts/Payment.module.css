@@ -1,0 +1,15 @@
+.payment {
+  background-color: #f3f1e7;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.cards {
+  margin: 0 2rem;
+}
+
+.cards hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(0, 0, 0, 0.1);
+}

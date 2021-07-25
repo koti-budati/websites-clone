@@ -1,18 +1,15 @@
 import classes from "./Getting.module.css";
 import Cards from "./Cards";
-import logo_1 from "../images/getting-started-1@2x.webp";
-import logo_2 from "../images/getting-started-2@2x.webp";
-import logo_3 from "../images/getting-started-3@2x.webp";
 
-const Getting = () => {
+const Getting = (props) => {
   return (
     <div className={classes.main}>
-      <h2>Getting started is easy</h2>
-      <p>Earn Stars and get rewarded in a few easy steps.</p>
+      <h2>{props.h2}</h2>
+      <p>{props.paragraph}</p>
       <div className={classes.cards}>
-        <Cards location={logo_1} h3={"Create an account"} />
-        <Cards location={logo_2} h3={"Order and pay how you’d like"} />
-        <Cards location={logo_3} h3={"Earn Stars, get Rewards"} />
+        <Cards location={props.logo_1} h3={props.logo_1_h3} />
+        <Cards location={props.logo_2} h3={props.logo_2_h3} />
+        <Cards location={props.logo_3} h3={props.logo_3_h3} />
       </div>
     </div>
   );
