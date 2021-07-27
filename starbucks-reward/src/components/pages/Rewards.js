@@ -4,6 +4,7 @@ import Hero from "../layouts/Hero";
 import Getting from "../layouts/Getting";
 import Tabbed from "../layouts/Tabbed";
 import Payment from "../layouts/Payment";
+import StartNow from "../layouts/StartNow";
 import logo_1 from "../images/getting-started-1@2x.webp";
 import logo_2 from "../images/getting-started-2@2x.webp";
 import logo_3 from "../images/getting-started-3@2x.webp";
@@ -39,6 +40,7 @@ const Rewards = () => {
         logo_3_h3={"Get to free faster"}
       />
       <Payment />
+      <StartNow />
     </div>
   );
 };

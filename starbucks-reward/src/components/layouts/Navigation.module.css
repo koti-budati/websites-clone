@@ -1,7 +1,7 @@
 #container {
   position: fixed;
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 header {
@@ -45,7 +45,6 @@ a {
 
 .right_nav button {
   padding: 7px 15px;
-  /* background: none; */
   border: 1px solid black;
   border-radius: 30px;
   height: 2rem;
@@ -53,8 +52,12 @@ a {
   cursor: pointer;
 }
 
+.sign_in {
+  background-color: white;
+}
+
 .sign_in:hover {
-  background-color: darkgray;
+  background-color: rgba(169, 169, 169, 0.1);
 }
 
 .join_now {

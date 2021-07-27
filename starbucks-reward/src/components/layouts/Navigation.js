@@ -24,7 +24,7 @@ const Navigation = () => {
           Find a Store
         </Link>
         <Link to={"#"} className={classes.right_nav}>
-          <button className={"sign-in"}>Sign in</button>
+          <button className={classes.sign_in}>Sign in</button>
         </Link>
         <Link to={"#"} className={classes.right_nav}>
           <button className={classes.join_now}>Join now</button>

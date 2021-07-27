@@ -1,0 +1,42 @@
+#startnow {
+  text-align: start;
+  margin: 5rem 27%;
+}
+
+#startnow * {
+    margin: .5rem;
+}
+
+#startnow input {
+  width: 100%;
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+
+#startnow button {
+  background-color: white;
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 0.4rem;
+  border-radius: 30px;
+  margin-top: 0.5rem;
+  float: right;
+  width: 5rem;
+}
+
+#startnow p {
+  font-size: 15px;
+}
+
+#startnow a {
+  color: #008248;
+  text-decoration: underline;
+}
+
+#link {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
