@@ -4,13 +4,13 @@
   background-color: #ffffff;
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
   margin: 1rem 4.5rem;
 }
 
-img {
+.header img {
   height: 3.2rem;
 }
 
@@ -18,16 +18,18 @@ img {
   margin-left: auto;
 }
 
-ul li {
+.nav li {
   display: inline-block;
   margin: 10px;
 }
 
-.right_nav {
-  margin: 10px;
+.nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
 }
 
-a {
+.right_nav {
+  margin: 10px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
 }

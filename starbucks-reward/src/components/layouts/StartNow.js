@@ -15,15 +15,16 @@ const StartNow = () => {
       <div id={classes.link}>
         <p>Have a receipt but don't have a code?</p>
         <p>
-          Go to <Link to={"starbucks-stars.com"}>starbucks-stars.com</Link> to
-          upload your receipt and collect your Stars.
+          Go to <Link to={"#"}>starbucks-stars.com</Link> to upload your receipt
+          and collect your Stars.
         </p>
       </div>
       <div>
         <h1>Questions?</h1>
         <p>
           We want to help in any way we can. You can ask your barista anytime or
-          we’ve answered the most commonly asked questions <Link>right over here. </Link>
+          we’ve answered the most commonly asked questions{" "}
+          <Link to={"#"}>right over here. </Link>
         </p>
       </div>
     </div>

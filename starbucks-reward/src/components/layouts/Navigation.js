@@ -3,12 +3,16 @@ import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
+  const style = {
+    'text-decoration': 'none',
+    color: 'rgba(0, 0, 0, 0.87)'
+  }
   return (
     <div id={classes.container}>
-      <header>
+      <header className={classes.header}>
         <img src={logo} alt="logo" />
         <nav>
-          <ul>
+          <ul className={classes.nav}>
             <li>
               <Link to={"#"}>Menu</Link>
             </li>

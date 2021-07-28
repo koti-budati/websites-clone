@@ -1,0 +1,29 @@
+#infoadd {
+  background-color: #f7f7f7;
+  padding: 2rem 4.5rem;
+  font-weight: 400;
+  display: flex;
+  /* width: 50%; */
+}
+
+#infoadd p {
+  font-size: 0.8rem;
+  margin: 1.5rem 0;
+}
+
+#headings {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgb(0, 0, 0, 0.8);
+  font-size: 1rem;
+}
+
+#infoadd > div {
+  width: 49%;
+  margin: 0 1%;
+}
+
+/* #more {
+  display: flex;
+  width: 50%;
+} */

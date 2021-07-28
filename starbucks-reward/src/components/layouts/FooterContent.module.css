@@ -1,0 +1,30 @@
+#footercontent {
+  width: 13rem;
+  margin: 0 1rem;
+}
+
+#footercontent h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#footercontent > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#footercontent li {
+  padding: 1rem 1.5rem 1rem 0;
+  font-size: 0.9rem;
+}
+
+#footercontent li a {
+  color: rgba(0, 0, 0, 0.589);
+  text-decoration: none;
+}
+
+#footercontent li a:hover {
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
