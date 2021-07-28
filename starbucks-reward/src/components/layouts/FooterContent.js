@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const FooterContent = (props) => {
   function li_list(items) {
-    return <li key={items.id}><Link to={'#'}>{items.name}</Link></li>;
+    return <li key={items.id} className={classes.li}><Link to={'#'}>{items.name}</Link></li>;
   }
   return (
     <div id={classes.footercontent} >

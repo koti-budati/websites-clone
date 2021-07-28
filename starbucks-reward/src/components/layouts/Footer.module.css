@@ -1,4 +1,36 @@
 .footer {
-    padding: 0 4.5rem;
-    display: flex;
+  padding: 0 4.5rem;
+  display: flex;
+}
+
+#socials {
+  padding: 0 4.5rem;
+}
+
+#socials img {
+  height: 2rem;
+  margin: 1.5rem 1rem 1.5rem 0;
+}
+
+#policy {
+  padding: 0 4.5rem;
+}
+
+#policy a {
+  margin: 0 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+#policy a:first-child {
+  margin: 0 1.5rem 0 0;
+}
+
+#policy p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.85rem;
 }

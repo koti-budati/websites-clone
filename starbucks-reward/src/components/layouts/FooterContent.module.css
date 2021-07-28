@@ -22,6 +22,7 @@
 #footercontent li a {
   color: rgba(0, 0, 0, 0.589);
   text-decoration: none;
+  width: 100%;
 }
 
 #footercontent li a:hover {

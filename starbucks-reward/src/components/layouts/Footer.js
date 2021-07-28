@@ -1,5 +1,13 @@
 import classes from "./Footer.module.css";
 import FooterContent from "./FooterContent";
+import fb from "../images/fb.png";
+import insta from "../images/instagram.png";
+import youtube from "../images/youtube.png";
+import twitter from "../images/twitter.png";
+import spotify from "../images/spotify.png";
+import pinterest from "../images/pinterest.png";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const footer_list = [
     [
@@ -41,7 +49,6 @@ const Footer = () => {
 
   return (
     <footer>
-
       <div className={classes.footer}>
         <div className={classes}>
           <FooterContent footer_list={footer_list[0]} title={"About Us"} />
@@ -65,7 +72,42 @@ const Footer = () => {
           />
         </div>
       </div>
-      <hr />
+      <div id={classes.socials}>
+        <hr />
+        <div>
+          <Link to={"#"}>
+            <img src={spotify} alt={"Spotify"} />
+          </Link>
+          <Link to={"#"}>
+            <img src={fb} alt={"facebook"} />
+          </Link>
+          <Link to={"#"}>
+            <img src={pinterest} alt={"Pinterest"} />
+          </Link>
+          <Link to={"#"}>
+            <img src={insta} alt={"Instagram"} />
+          </Link>
+          <Link to={"#"}>
+            <img src={youtube} alt={"Youtube"} />
+          </Link>
+          <Link to={"#"}>
+            <img src={twitter} alt={"Twitter"} />
+          </Link>
+        </div>
+      </div>
+      <div id={classes.policy}>
+        <Link>Privacy Policy</Link>
+        <span>|</span>
+        <Link>Terms of Use</Link>
+        <span>|</span>
+        <Link>CA Supply Chain Act</Link>
+        <span>|</span>
+        <Link>Submit Your Idea</Link>
+        <span>|</span>
+        <Link>Cookie Preferences</Link>
+        <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
+      </div>
+      <div></div>
     </footer>
   );
 };
