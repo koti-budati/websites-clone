@@ -96,15 +96,15 @@ const Footer = () => {
         </div>
       </div>
       <div id={classes.policy}>
-        <Link>Privacy Policy</Link>
+        <Link to={"#"}>Privacy Policy</Link>
         <span>|</span>
-        <Link>Terms of Use</Link>
+        <Link to={"#"}>Terms of Use</Link>
         <span>|</span>
-        <Link>CA Supply Chain Act</Link>
+        <Link to={"#"}>CA Supply Chain Act</Link>
         <span>|</span>
-        <Link>Submit Your Idea</Link>
+        <Link to={"#"}>Submit Your Idea</Link>
         <span>|</span>
-        <Link>Cookie Preferences</Link>
+        <Link to={"#"}>Cookie Preferences</Link>
         <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
       </div>
       <div></div>

@@ -1,4 +1,17 @@
 .tabbed {
-  height: 25rem;
-  background-color: #d4e9e2;
+  /* height: 25rem; */
+  background-color: #f1f8f6;
+  text-align: center;
+}
+
+.tabbed > h2 {
+  padding: 3rem 0;
+  font-size: 1.75rem;
+}
+
+#50,
+#150,
+#200,
+#400 {
+  display: none;
 }
