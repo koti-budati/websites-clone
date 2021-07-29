@@ -3,10 +3,6 @@ import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
-  const style = {
-    'text-decoration': 'none',
-    color: 'rgba(0, 0, 0, 0.87)'
-  }
   return (
     <div id={classes.container}>
       <header className={classes.header}>

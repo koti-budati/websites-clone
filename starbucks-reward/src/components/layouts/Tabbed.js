@@ -18,24 +18,27 @@ const Tabbed = () => {
   }
   return (
     <div className={classes.tabbed}>
-      <h2>Get your favorites for free</h2>
-      <div>
-        <Link to={"#"} onClick={() => free("25")}>
-          25
-          <span>★</span>
-        </Link>
-        <Link to={"#"} onClick={() => free("50")}>
-          50<span>★</span>
-        </Link>
-        <Link to={"#"} onClick={() => free("150")}>
-          150<span>★</span>
-        </Link>
-        <Link to={"#"} onClick={() => free("200")}>
-          200<span>★</span>
-        </Link>
-        <Link to={"#"} onClick={() => free("400")}>
-          400<span>★</span>
-        </Link>
+      <div className={classes.topTabbed}>
+        <h2>Get your favorites for free</h2>
+        <div id={classes.nav}>
+          <Link to={"#"} onClick={() => free("25")}>
+            25
+            <span>★</span>
+            {/* <div></div> */}
+          </Link>
+          <Link to={"#"} onClick={() => free("50")}>
+            50<span>★</span>
+          </Link>
+          <Link to={"#"} onClick={() => free("150")}>
+            150<span>★</span>
+          </Link>
+          <Link to={"#"} onClick={() => free("200")}>
+            200<span>★</span>
+          </Link>
+          <Link to={"#"} onClick={() => free("400")}>
+            400<span>★</span>
+          </Link>
+        </div>
       </div>
       <div>
         <TabbedContent

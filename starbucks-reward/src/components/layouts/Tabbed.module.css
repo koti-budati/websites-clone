@@ -1,17 +1,37 @@
 .tabbed {
-  /* height: 25rem; */
   background-color: #f1f8f6;
   text-align: center;
 }
 
-.tabbed > h2 {
+.topTabbed > h2 {
   padding: 3rem 0;
   font-size: 1.75rem;
 }
 
-#50,
-#150,
-#200,
-#400 {
-  display: none;
+.topTabbed {
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.349);
+  /* padding-bottom: 2rem; */
+  margin-bottom: 3px;
+}
+
+#nav {
+  padding: 0 0 2rem 0;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+}
+
+#nav a span {
+  color: brown;
+  font-size: 1rem;
+}
+
+#nav a div {
+  height: 0.5rem;
+  background-color: #008248;
+  width: 1rem;
 }

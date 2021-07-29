@@ -2,11 +2,11 @@ import classes from "./TabbedContent.module.css";
 
 const TabbedContent = (props) => {
   var tabbed = {
-    display: "flex",
+    display: "none",
   };
-  if (props.id_tag !== "25") {
+  if (props.id_tag === "25") {
     tabbed = {
-      display: "none",
+      display: "flex",
     };
   }
   return (

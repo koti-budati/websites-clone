@@ -1,9 +1,9 @@
 .tabbedcontent {
-  display: flex;
   background-color: #d4e9e2;
   width: 100%;
   justify-content: center;
   text-align: start;
+  
 }
 
 .tabbedcontent img {
