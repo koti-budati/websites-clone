@@ -16,28 +16,29 @@ const Tabbed = () => {
     }
     document.getElementById(tag).style.display = "flex";
   }
+
+  function link_tag(id, text) {
+    return (
+      <div>
+        <Link to={"#"} onClick={() => free(id)}>
+          {text}
+          <span>★</span>
+          <div></div>
+        </Link>
+      </div>
+    );
+  }
   return (
     <div className={classes.tabbed}>
       <div className={classes.topTabbed}>
         <h2>Get your favorites for free</h2>
         <div id={classes.nav}>
-          <Link to={"#"} onClick={() => free("25")}>
-            25
-            <span>★</span>
-            {/* <div></div> */}
-          </Link>
-          <Link to={"#"} onClick={() => free("50")}>
-            50<span>★</span>
-          </Link>
-          <Link to={"#"} onClick={() => free("150")}>
-            150<span>★</span>
-          </Link>
-          <Link to={"#"} onClick={() => free("200")}>
-            200<span>★</span>
-          </Link>
-          <Link to={"#"} onClick={() => free("400")}>
-            400<span>★</span>
-          </Link>
+          {link_tag('25', 25)}
+          {link_tag('50', 50)}
+          {link_tag('150', 150)}
+          {link_tag('200', 200)}
+          {link_tag('400', 400)}
+          
         </div>
       </div>
       <div>
