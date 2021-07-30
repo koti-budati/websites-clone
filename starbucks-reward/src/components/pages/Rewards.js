@@ -10,6 +10,9 @@ import Footer from "../layouts/Footer";
 import logo_1 from "../images/getting-started-1@2x.webp";
 import logo_2 from "../images/getting-started-2@2x.webp";
 import logo_3 from "../images/getting-started-3@2x.webp";
+import logo1_1 from "../images/1-fun-freebies.webp";
+import logo1_2 from "../images/2-order-and-pay-ahead.webp";
+import logo1_3 from "../images/3-get-to-free-faster.webp";
 
 const Rewards = () => {
   document.title =
@@ -34,11 +37,11 @@ const Rewards = () => {
         paragraph={
           "Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering, tasty Rewards and—yes, free coffee."
         }
-        logo_1={logo_1}
+        logo_1={logo1_1}
         logo_1_h3={"Fun freebies"}
-        logo_2={logo_2}
+        logo_2={logo1_2}
         logo_2_h3={"Order & pay ahead"}
-        logo_3={logo_3}
+        logo_3={logo1_3}
         logo_3_h3={"Get to free faster"}
       />
       <Payment />
