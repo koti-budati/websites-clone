@@ -4,11 +4,11 @@
   justify-content: center;
   text-align: start;
   display: flex;
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .tabbedcontent img {
-  height: 15rem;
+  height: 18rem;
   margin-right: 3rem;
 }
 

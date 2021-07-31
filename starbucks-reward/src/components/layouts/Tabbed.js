@@ -46,7 +46,7 @@ const Tabbed = () => {
     return (
       <div onClick={() => changeTab(tabsData[text])}>
         {text}
-        <span id={classes.star}>★</span>
+        <span id={classes.star}>★</span> 
         <mark className={classes.under}></mark>
       </div>
     );
