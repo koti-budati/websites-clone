@@ -1,0 +1,7 @@
+#hero {
+    background-image: url("../../images/hero.jpg");
+    position: absolute;
+    height: 25rem;
+    width: 100%;
+    z-index: -1;
+}
