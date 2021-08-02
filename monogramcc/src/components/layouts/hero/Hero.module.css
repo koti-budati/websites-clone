@@ -1,7 +1,11 @@
 #hero {
     background-image: url("../../images/hero.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
     position: absolute;
-    height: 25rem;
+    height: 100%;
     width: 100%;
     z-index: -1;
+    pointer-events: none;
 }
