@@ -1,11 +1,27 @@
 #hero {
-    background-image: url("../../images/hero.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center ;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    pointer-events: none;
+  background-image: url("../../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  pointer-events: none;
+  height: 86vh;
+}
+
+#hero h1 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+#hero p {
+  margin-top: 20px;
+}
+
+#hero h1,
+#hero p {
+  position: relative;
+  margin: 0;
+  top: 19rem;
+  left: 55rem;
+  width: 25rem;
+  color: #1a2456;
 }

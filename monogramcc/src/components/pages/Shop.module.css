@@ -1,0 +1,4 @@
+#card_layout {
+  display: grid;
+  grid-template-areas: "1 1";
+}
