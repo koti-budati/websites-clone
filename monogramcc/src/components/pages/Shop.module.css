@@ -1,4 +1,11 @@
+#shop {
+  background-color: #f0efed;
+}
+
 #card_layout {
+  width: 70%;
+  margin: 3rem auto;
   display: grid;
-  grid-template-areas: "1 1";
+  grid-template-columns: 30rem 30rem;
+  grid-gap: 30px;
 }

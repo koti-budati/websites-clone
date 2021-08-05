@@ -1,3 +1,8 @@
-/* #card {
-    
-} */
+#card {
+  /* max-width: 32rem; */
+  /* margin: auto; */
+}
+
+#card img {
+    width: 100%;
+}
